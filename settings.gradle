@@ -1,0 +1,3 @@
+rootProject.name = 'buckle'
+include 'core'
+include 'sample'
