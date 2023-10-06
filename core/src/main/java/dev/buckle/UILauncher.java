@@ -64,7 +64,7 @@ public class UILauncher {
         UIFactory.getDefault().launch(configuration);
     }
 
-    public static UILauncher begin() {
+    public static UILauncher builder() {
         return new UILauncher();
     }
 }

@@ -5,7 +5,7 @@ import dev.buckle.UILauncher;
 public class SampleApp {
 
     public static void main(String... args) {
-        UILauncher.begin()
+        UILauncher.builder()
                 .setTitle("Sample App")
                 .setWidth(750)
                 .setHeight(500)
